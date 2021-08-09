@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="about">
+        <h1>Temperature conversions</h1>
+        <div class="conv1">
+            <h2>Conversion Fahrenheit to Degree Celcious</h2>
+            <div class="degFv">
+                <input type="number"name="" placeholder="Enter the value in Fahrenheit."id="fv"><br>
+                <button id = "convert"onclick = "fvToDeg()">Change to celcious</button><br>
+                <input type="number"name="" placeholder="Equivalent Degree Celcious" id = "deg"><br>
+                <button id = "remove"onclick = "del()">Clear</button>
+            </div>
+        </div>
+        <div class="conv1">
+            <h2>Conversion of Degree Celcious to Fahrenheit</h2>
+            <div class="degFv">
+                <input type="number"name="" placeholder="Enter the value in Degree Celcious"id="deg1"><br>
+                <button id = "convert"onclick = "degToFv()">Change to Fahrenheit</button><br>
+                <input type="number"name="" placeholder="Equivalent Fahrenheit" id="fv1"><br>
+                <button id = "remove"onclick = "del1()">Clear</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="degFv.js"></script>
+</body>
+</html>

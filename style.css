@@ -1,0 +1,43 @@
+*
+{
+    background-color: lightblue;
+    align-items: center;
+}
+
+.about
+{
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.conv1
+{
+    border: 1px solid black;
+}
+
+#convert
+{
+    background-color: green;
+    height: 30px;
+}
+
+
+#remove
+{
+    background-color: red;
+    height: 30px;
+}
+
+#deg, #fv, #deg1, #fv1, #convert
+{
+    height: 40px;
+    width: auto;
+    margin-bottom: 10px;
+}
+h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
